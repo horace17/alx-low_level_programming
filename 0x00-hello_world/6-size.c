@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Prints sized of characters
- * 
+ * They work well
  * Return: Always 0 (success)
  */
 
