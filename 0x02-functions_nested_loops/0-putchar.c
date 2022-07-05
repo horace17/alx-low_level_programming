@@ -1,4 +1,6 @@
+#include "string.h"
 #include "main.h"
+#include <stdio.h>
 /**
  * main - main function
  * Return: End program
@@ -6,14 +8,11 @@
 
 int main(void)
 {
-	char string[8] = "_putchar";
-	int n = 0;
+	const char[] = "_putchar\n";
+	int len = strlen(str);
+	int i;
 
-	while (n < 8)
-	{
-		_putchar(string[n]);
-		++n;
-	}
-	_putchar(10);
+	for (i = 0; i < len; i++)
+	_putchar(str[i]);
 	return (0);
 }
