@@ -19,3 +19,4 @@ void print_alphabet_x10(void)
 		a = 'a';
 	}
 }
+%s/\s\+$//
