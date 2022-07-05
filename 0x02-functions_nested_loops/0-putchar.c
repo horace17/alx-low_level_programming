@@ -1,6 +1,4 @@
-#include "string.h"
 #include "main.h"
-#include <stdio.h>
 /**
  * main - main function
  * Return: End program
