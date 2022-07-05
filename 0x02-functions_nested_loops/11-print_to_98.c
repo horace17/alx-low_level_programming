@@ -1,9 +1,8 @@
 #include <stdio.h>
 /**
  * print_to_98 - function
- *
  * @n: parameter
- *
+ * Great
  * Return: natural numbers
  */
 
