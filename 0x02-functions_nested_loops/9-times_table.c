@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * times_table - function to print times table
- * Great
+ * 
  * Return: none - void function
  */
 
