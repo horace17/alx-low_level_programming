@@ -2,7 +2,7 @@
 /**
  * main - main function
  * Great
- * Return - End Program
+ * Return: End Program
  */
 
 int main(void)
@@ -15,7 +15,6 @@ int main(void)
 		_putchar(string[n]);
 		++n;	
 	}
-
 	_putchar(10);
 	return (0);
 }
