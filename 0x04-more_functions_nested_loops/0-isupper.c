@@ -1,8 +1,6 @@
 #include "main.h"
-
 /**
  * _isupper - function
- *
  * @c: parameter
  *
  * Return: return value
