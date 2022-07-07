@@ -2,7 +2,6 @@
 /**
  * print_numbers - function
  */
-
 void print_numbers(void)
 {
 	int n = 48;
