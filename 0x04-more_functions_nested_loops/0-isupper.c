@@ -2,12 +2,10 @@
 /**
  * _isupper - function
  * @c: parameter
- *
  * Return: return value
  */
 
 int _isupper(int c)
-
 {
 
 	if (c >= 65 && c <= 90)
@@ -17,5 +15,4 @@ int _isupper(int c)
 	else
 
 		return (0);
-
 }
