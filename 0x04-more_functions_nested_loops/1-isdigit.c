@@ -1,17 +1,10 @@
 #include "main.h"
-
 /**
-
  * _isdigit - function
-
  *
-
  * @c: parameter
-
  *
-
  * Return: return Value
-
  */
 
 int _isdigit(int c)
