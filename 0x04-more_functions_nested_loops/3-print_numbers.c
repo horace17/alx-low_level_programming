@@ -8,7 +8,6 @@ void print_numbers(void)
 
 	while (n < 58)
 	{
-		_putchar(n++);
-	}
+		_putchar(n++);                                                                                                                  }
 	_putchar(10);
 }
