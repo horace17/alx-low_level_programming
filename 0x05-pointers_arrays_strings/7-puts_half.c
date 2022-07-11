@@ -1,25 +1,18 @@
+#include "main.h"
+/**
+ * puts_half - function
+ *
+ * @str: pointer of parameter
+ */
 void puts_half(char *str)
-    {
-        int n, c = 0;
-        char *temp = str;
+{
+	int length = 0;
+	int sublength;
 
-        while (*str != '\0')
-        {
-            c = c + 1;
-            str = str + 1;
-        }
-        
-        str = temp;
-        
-        for (n = 0; n < (c / 2); n++)
-        {
-            if (c % 2 == 0)
-            {
-                putchar(str[(n + (c / 2))]);
-            }
-            else
-            {
-                putchar(str[((n + 1) + (c / 2))]);
-            }
-        }
+	while (str[length] != '\0')
+		length++;
+	sublength = (length % 2 == 0) ? length / 2 : (length + 1) / 2;
+	while (str[sublength] != '\0')
+		_putchar(str[sublength++]);
+	_putchar(10);
 }
