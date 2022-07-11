@@ -1,11 +1,9 @@
 #include "main.h"
-
 /**
  * _puts - function
  *
  * @str: pointer of parameter
  */
-
 void _puts(char *str)
 {
 	int i = 0;
@@ -15,6 +13,5 @@ void _puts(char *str)
 		_putchar(str[i]);
 		i++;
 	}
-
 	_putchar(10);
 }
