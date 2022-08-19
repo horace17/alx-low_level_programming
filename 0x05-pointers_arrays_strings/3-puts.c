@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * _puts - function
- *
  * @str: pointer of parameter
  */
 void _puts(char *str)
