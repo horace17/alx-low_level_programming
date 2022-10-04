@@ -1,2 +1,1 @@
-C - Dynamic libraries
-
+Program for C static library
